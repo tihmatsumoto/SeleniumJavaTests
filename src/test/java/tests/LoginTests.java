@@ -1,4 +1,4 @@
-package login;
+package tests;
 
 import base.BaseTests;
 import org.testng.annotations.Test;
@@ -18,5 +18,4 @@ public class LoginTests extends BaseTests {
         String comparisonText = "You logged into a secure area!";
         assertTrue(secureAreaPage.getAlertText().contains(comparisonText), "Alert text is incorrect!");
     }
-
 }
